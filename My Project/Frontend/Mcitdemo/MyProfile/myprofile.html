@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="myprofile.css">
+</head>
+<body>
+<header>
+    <div class="myprofile">
+
+    <div class="logo">
+        <h1>TripOTravel</h1>
+    </div>
+    <div class="header-block">
+        <ul>
+            <li><input href="/MyProfile/myprofile.html"><button>MyProfile</button></li>
+            <!-- <li><a href="/MyProfile/myprofile.html"><button>MyProfile</button></a></li> -->
+            <li><a href="/MyResume/myresume.html"><button>My Resume</button></a></li>
+            <li><a onclick="logout()"><button>Logout</button></a></li>
+        </ul>
+    </div>
+    </div>
+</header>
+<div class="container">
+
+  <div class="row">
+    <div class="col-25">
+      <label for="firstname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input  type="text" id="firstname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+      <input onclick="submit('1')" type="submit" type="Submit">
+    </div>
+    <br>
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="lastname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+      <input onclick="submit('2')" type="submit" value="Submit">
+    </div>
+    <br>
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email Id</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="email" name="email" placeholder="Your EmailId">
+    </div>
+  </div>
+
+  <br>
+  <div class="row">
+      <input onclick="submit('3')" type="submit" value="Submit">
+    </div>
+    <br>
+
+ 
+    <div class="row">
+        <div class="col-25">
+          <label for="gender">Gender</label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="gender" name="gender" placeholder="Male or Female">
+        </div>
+      </div>
+    
+      <br>
+      <div class="row">
+          <input onclick="submit('4')" type="submit" value="Submit">
+        </div>
+        <br>
+  
+        
+  <div class="row">
+      <div class="col-25">
+        <label for="dateOfbirth">DOB</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="dateOfbirth" name="dateOfbirth" placeholder="DOB">
+      </div>
+    </div>
+
+    <br>
+  <div class="row">
+      <input onclick="submit('5')" type="submit" value="Submit">
+    </div>
+    <br>
+
+
+  <div class="row">
+      <div class="col-25">
+        <label for="subject">About Me</label>
+      </div>
+      <div class="col-75">
+        <textarea id="aboutme" name="aboutMe" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <br>
+    <div class="row">
+        <input onclick="submit('6')"  type="submit" value="Submit">
+      </div>
+      <br>
+
+
+    <div class="row">
+        <div class="col-25">
+          <label for="education">Education</label>
+        </div>
+        <div class="col-75">
+          <textarea id="education" name="education" placeholder="Enter your Education details" style="height:200px"></textarea>
+        </div>
+      </div>
+
+      <br>
+      <div class="row">
+          <input onclick="submit('7')" type="submit" value="Submit">
+        </div>
+        <br>
+
+  <div class="row">
+      <div class="col-25">
+        <label for="experiance">Experiance</label>
+      </div>
+      <div class="col-75">
+        <textarea id="experiance" name="experiance" placeholder="Experiance" style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <br>
+  <div class="row">
+    <input onclick="submit('8')" type="submit" value="Submit">
+  </div>
+</div>
+<br>
+
+</body>
+</html>
+
+<script src="/MyProfile/myprofile.js"></script>
